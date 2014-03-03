@@ -37,7 +37,7 @@ module.exports = {
     passReqToCallback: true
   },
 
-  githubAuth: true,
+  githubAuth: false,
   github: {
     clientID: 'Your Client ID',
     clientSecret: 'Your Client Secret',
@@ -45,7 +45,7 @@ module.exports = {
     passReqToCallback: true
   },
 
-  twitterAuth: true,
+  twitterAuth: false,
   twitter: {
     consumerKey: 'Your Consumer Key',
     consumerSecret: 'Your Consumer Secret',
@@ -53,7 +53,7 @@ module.exports = {
     passReqToCallback: true
   },
 
-  googleAuth: true,
+  googleAuth: false,
   google: {
     clientID: 'Your Client ID',
     clientSecret: 'Your Client Secret',
@@ -61,7 +61,7 @@ module.exports = {
     passReqToCallback: true
   },
 
-  linkedinAuth: true,
+  linkedinAuth: false,
   linkedin: {
     clientID: 'Your Client ID',
     clientSecret: 'Your Client Secret',
